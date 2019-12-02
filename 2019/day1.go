@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-var filePath = "/Users/mfeichtel/go/src/github.com/meganfeichtel/advent-of-code/2019/input1.txt"
+var filePath = "/Users/mfeichtel/go/src/github.com/meganfeichtel/advent-of-code/2019/inputs/day1.txt"
 
 func check(e error) {
 	if e != nil {
