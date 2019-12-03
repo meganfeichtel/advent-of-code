@@ -2,12 +2,13 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	"strconv"
 )
 
-var filePath = "/Users/mfeichtel/go/src/github.com/meganfeichtel/advent-of-code/2019/inputs/day1.txt"
+var filePath = "/Users/mfeichtel/go/src/github.com/meganfeichtel/advent-of-code/2019/day1/day1.txt"
 
 func check(e error) {
 	if e != nil {
@@ -47,4 +48,9 @@ func calcTotals() int {
 	}
 
 	return totalFuel
+}
+
+func main() {
+	total := calcTotals()
+	fmt.Printf(fmt.Sprintf("Total fuel: %d\n", total))
 }
