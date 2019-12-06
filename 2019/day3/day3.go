@@ -18,7 +18,6 @@ func main() {
 	w1, w2 := wires[0], wires[1]
 
 	res, _ := findShortestWireCrossingDistance(w1, w2)
-
 	fmt.Println("Distance to shortest wire is: ", res)
 }
 
